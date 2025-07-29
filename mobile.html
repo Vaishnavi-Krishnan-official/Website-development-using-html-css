@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    #anime{
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+        animation-name: example1;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes example1{
+        0%{
+            background-color: blue;
+            transform: skew(50deg);
+        }
+        20%{
+            background-color: beige;
+            transform: translateY(100px);
+        }
+        50%{
+            background-color: brown;
+            transform: translateX(100px);
+        }
+        100%{
+            background-color: black;
+    
+            
+        }
+    }
+</style>
+<body>
+    <div id="anime">
+
+    </div>
+    
+</body>
+</html>
